@@ -25,6 +25,11 @@ const Form = ({ input, setInput, todos, setTodos }) => {
         <button className="add-button" type="submit">
           Add
         </button>
+        <input
+         type="text"
+         placeholder="Search Name..."
+         className="task-input"
+        />
         <button className="search-button" type="button">
           Search
         </button>
@@ -34,8 +39,6 @@ const Form = ({ input, setInput, todos, setTodos }) => {
 };
 
 export default Form;
-
-
 
 
 
